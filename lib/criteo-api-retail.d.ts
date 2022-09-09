@@ -187,6 +187,7 @@ declare class Criteo_API {
   ): Promise<CampaignResponse | undefined>;
 
   getLineItemsByCampaignId(
+    accountId: string,
     campaignId: string,
     pageInfo?: PageInfo,
     callback?: (err: any, res: any) => void,
