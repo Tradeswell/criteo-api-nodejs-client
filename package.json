@@ -1,6 +1,6 @@
 {
   "name": "criteo-api-retail",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A NodeJS Client For Criteo API Requests",
   "main": "./lib/criteo_api.js",
   "typings": "./lib/criteo-api-retail.d.ts",
@@ -8,6 +8,7 @@
     "lib": "lib"
   },
   "dependencies": {
+    "criteo-api-retail": "^1.0.5",
     "js-sha512": "^0.8.0"
   },
   "devDependencies": {
@@ -16,7 +17,7 @@
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
-    "jest": "^26.6.3",
+    "jest": "^29.7.0",
     "jsdoc": "^4.0.2",
     "prettier": "^2.2.1",
     "typescript": "^3.9.9"
